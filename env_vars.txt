@@ -1,0 +1,16 @@
+DB_HOST - defines the database host ip/hostname - will default to 'localhost' if not set
+DB_NAME - defines the database name - will default to empty string if not set
+DB_USER - defines the username to use to connect to the database - will default to empty string if not set
+DB_PASS - defines the password to use to connect to the database - will default to empty string if not set
+
+CI_ENV - defines the environment for the application - will default to 'development' if  not set
+
+ENABLE_GZIP - defines wether to use gzip output compression - defaults to false if not set
+
+BASE_URL - sets the base url -must end with a trailing slash (eg: https://localhost/) - defaults to http://localhost/ if not defined
+
+COMPOSER_AUTOLOAD - defines wether or not to enable the composer autoload feature - defaults to false if not set - can be used to define a path to a vendor/autoload.php file
+
+APP_NAME - The name of the application
+
+PROXY_IPS - a comma seperated list of allowed proxy server ips

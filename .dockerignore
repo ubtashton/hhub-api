@@ -1,0 +1,6 @@
+#Dockerignore - use this file to exclude files and directories from the build context
+README.md
+.git
+.github
+.gitignore
+app/vendor
